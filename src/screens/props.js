@@ -1,6 +1,7 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { View } from "react-native";
+import List from "../components/list";
 
 export default function Props() {
   // Create variable to insert link Image
@@ -8,7 +9,9 @@ export default function Props() {
   return (
     <View>
       <StatusBar />
-      {/* Code Here */}
+      <List listData="Danu" />
+      <List listData="Danu" />
+      <List listData="Danu" />
     </View>
   );
 }
